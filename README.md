@@ -6,3 +6,6 @@
 
 ### Linter flake8 Badge:
 ![flake8](https://github.com/Mqtaw/python-project-lvl1/actions/workflows/flake8_lint.yml/badge.svg)
+
+### asciinema:
+https://asciinema.org/a/403832
