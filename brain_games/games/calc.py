@@ -6,7 +6,7 @@ from random import choice
 
 def game():
     name = welcome_user()
-
+    print('What is the result of the expression?')
     for i in range(3):
         temp = question_answer()
         if temp[0] is True:

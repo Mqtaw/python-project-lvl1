@@ -16,6 +16,7 @@ def game():
             return (False, question, correct_answer)
 
     name = welcome_user()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for i in range(3):
         temp = question_answer()

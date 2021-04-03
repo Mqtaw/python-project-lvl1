@@ -12,3 +12,6 @@ https://asciinema.org/a/403832
 
 ### asciinema(brain-calc):
 https://asciinema.org/a/zIsE0w2eRxJYPSkYgohYcszMv
+
+### asciinema(brain-gsd):
+https://asciinema.org/a/EN9tLDdmZpVVhg3I3K7ET2C7r
