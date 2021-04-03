@@ -15,3 +15,6 @@ https://asciinema.org/a/zIsE0w2eRxJYPSkYgohYcszMv
 
 ### asciinema(brain-gsd):
 https://asciinema.org/a/EN9tLDdmZpVVhg3I3K7ET2C7r
+
+### asciinema(brain-progression):
+https://asciinema.org/a/OZW36zgWVRhSCUBwmmGDfBRJX
