@@ -1,9 +1,11 @@
 import prompt
-from brain_games.cli import welcome_user
 from random import randint
 
 
-def question_answer():
+DESCRIPTION = 'What number is missing in the progression?'
+
+
+def get_question_answer():
     progression_length = randint(5, 10)
     progression_start = randint(0, 100)
     progression_step = randint(1, 5)
@@ -17,19 +19,3 @@ def question_answer():
     print(*progression)
     answer = prompt.integer('Your answer: ')
     return (answer == correct_answer, answer, correct_answer)
-
-
-def game():
-    name = welcome_user()
-    print('What number is missing in the progression?')
-    for i in range(3):
-        temp = question_answer()
-        if temp[0] is True:
-            print('Correct!')
-        else:
-            print("""'{}' is wrong answer ;(. Correct answer was '{}'.\
-            """.format(temp[1], temp[2]))
-            print("Let's try again, {}!".format(name))
-            break
-    else:
-        print('Congratulations, {}!'.format(name))
