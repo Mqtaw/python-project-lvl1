@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
+version = "0.2.0"
 description = """
     include 'brain-even' - Answer \"yes\" if the number is even, otherwise answer \"no\"
     include 'brain-calc - What is the result of the expression?
